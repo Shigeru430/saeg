@@ -1,3 +1,4 @@
+[SAEG_v1.0_README.md](https://github.com/user-attachments/files/29675975/SAEG_v1.0_README.md)
 01_ENGINEERING_PHILOSOPHY
 > **SAEG Constitution**
 >
@@ -8,7 +9,74 @@ Engineering is more than writing code.
 Programming languages change.
 Frameworks change.
 AI models change.
-Engineering principles should remain.
+Engineering principles should remain.# Shigeru AI Engineering Guide (SAEG) v1.0
+
+> AI-First Development Standard for Autonomous Engineering
+
+## Mission
+SAEG defines the common engineering rules for all AI-assisted software projects.
+
+### Core Principles
+1. Long-term maintainability over short-term convenience.
+2. Evidence and testing over assumptions.
+3. Preserve compatibility unless explicitly approved.
+4. Documentation is part of the deliverable.
+5. AI agents and humans follow the same engineering rules.
+
+## AI Agent Startup Checklist
+Before changing any code:
+
+1. Read README.md
+2. Read SAEG/01_AGENTS.md
+3. Read project documentation
+4. Understand repository structure
+5. Ask if requirements are ambiguous
+
+## Repository Layout
+
+```
+Project/
+├── README.md
+├── SAEG/
+├── docs/
+├── src/
+├── out/
+├── tests/
+```
+
+## Development Rules
+
+- Always provide complete working code.
+- Keep CLI compatibility.
+- Add logging and exception handling.
+- Update documentation when behavior changes.
+- Provide execution commands.
+- Add tests when logic changes.
+
+## JRA Prediction AI Rules
+
+- ROI is the highest priority.
+- Buying zero races is acceptable.
+- Never introduce data leakage.
+- Run backtests before changing AI logic.
+- JV-Link acquisition uses 32-bit Python.
+- Analysis uses 64-bit Python.
+
+## Codex Instructions
+
+Always read SAEG before starting work.
+Never guess unclear requirements.
+Summarize completed work.
+List changed files.
+Report test results.
+
+## Roadmap
+
+v1.0 Foundation
+v1.1 Codex workflow improvements
+v1.5 Multi-project support
+v2.0 Multi-agent engineering
+
 This document defines the principles that every project developed under SAEG must follow.
 ---
 The Engineering Motto
