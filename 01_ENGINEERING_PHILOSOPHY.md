@@ -1,252 +1,96 @@
-# 01_ENGINEERING_PHILOSOPHY.md
-
-# Engineering Philosophy
-
-> *Technology changes.*
+01_ENGINEERING_PHILOSOPHY
+> **SAEG Constitution**
 >
-> *Engineering principles endure.*
-
+> Version: v0.1 (Foundation)
 ---
-
-# Purpose
-
-This document defines the engineering philosophy shared by every project developed under SAEG.
-
-Technology will evolve.
-
-Programming languages will change.
-
-AI models will improve.
-
-However, engineering principles should remain stable.
-
-This philosophy exists to preserve those principles.
-
+Why This Document Exists
+Engineering is more than writing code.
+Programming languages change.
+Frameworks change.
+AI models change.
+Engineering principles should remain.
+This document defines the principles that every project developed under SAEG must follow.
 ---
-
-# Our Mission
-
-We do not build software.
-
-We build assets.
-
-Every project should become something that is still valuable years after its first release.
-
-Code is only one part of that asset.
-
-Knowledge, documentation, testing, architecture and experience are equally important.
-
----
-
-# Our Vision
-
-Create software that future engineers can understand without relying on the original author.
-
-The goal is not simply to complete projects.
-
-The goal is to make projects sustainable.
-
----
-
-# Engineering Principles
-
-## Principle 1
-
-# Long-term Thinking
-
-Never optimize only for today.
-
-Every design decision should consider future maintenance.
-
-Temporary solutions eventually become permanent.
-
-Therefore, choose quality whenever possible.
-
----
-
-## Principle 2
-
-# ROI First
-
-Success is measured by long-term value.
-
-For investment systems:
-
-ROI is more important than prediction accuracy.
-
-The objective is not to maximize winning predictions.
-
-The objective is to maximize sustainable profitability.
-
----
-
-## Principle 3
-
-# Buy Nothing Is Also A Decision
-
-The best decision is sometimes doing nothing.
-
-An AI system must be allowed to reject opportunities.
-
-No prediction is better than a bad prediction.
-
----
-
-## Principle 4
-
-# Evidence Before Opinion
-
-Ideas are valuable.
-
-Evidence is mandatory.
-
-Every important decision should be supported by:
-
-- data
-- testing
-- measurement
-- comparison
-- validation
-
-Assumptions must always be verified.
-
----
-
-## Principle 5
-
-# Simplicity Wins
-
-Simple systems are easier to understand.
-
-Simple systems are easier to maintain.
-
-Complexity requires justification.
-
----
-
-## Principle 6
-
-# Documentation Is Part Of Engineering
-
-Documentation is not optional.
-
-If the software changes,
-
-documentation changes.
-
-Engineering is incomplete without documentation.
-
----
-
-## Principle 7
-
-# AI Is An Engineering Partner
-
-AI is not treated as an automatic code generator.
-
-AI participates as an engineering partner.
-
-AI should:
-
-- understand
-- question
-- design
-- review
-- improve
-
-before implementing.
-
----
-
-## Principle 8
-
-# Preserve Knowledge
-
-Knowledge must never disappear.
-
-Every lesson learned should become documentation.
-
-Failures are valuable engineering assets.
-
----
-
-## Principle 9
-
-# Maintainability Before Cleverness
-
-Readable software is better than clever software.
-
-Future engineers should understand the system without guessing.
-
----
-
-## Principle 10
-
-# Continuous Improvement
-
-No engineering standard is perfect.
-
-SAEG itself evolves through experience.
-
-Every project contributes back to SAEG.
-
----
-
-# AI Collaboration
-
-Human responsibilities
-
-- Vision
-- Product direction
-- Final decisions
-
-AI responsibilities
-
-- Design support
-- Documentation
-- Implementation
-- Testing
-- Review
-- Refactoring
-
-The strongest engineering teams combine human creativity with AI consistency.
-
----
-
-# Definition of Success
-
-A project is successful when:
-
-- it remains understandable
-- it remains maintainable
-- it remains extensible
-- it preserves knowledge
-- it creates long-term value
-
----
-
-# Engineering Motto
-
-> Code is temporary.
+The Engineering Motto
+> **We do not build software.**
 >
-> Knowledge is permanent.
->
-> Build software.
->
-> Preserve wisdom.
-
+> **We build engineering knowledge that outlives software.**
+Software has a lifecycle.
+Engineering knowledge should not.
 ---
-
-# SAEG Philosophy
-
-Every improvement made to any project should make SAEG itself better.
-
-Knowledge gained from development is never considered complete until it becomes part of the engineering standard.
-
-Projects create experience.
-
-Experience improves SAEG.
-
-SAEG improves future projects.
-
-This cycle never ends.
+The Ten Laws of SAEG
+LAW 01 — Think Long-Term
+Every engineering decision should improve the project five years from now, not only today.
+---
+LAW 02 — Evidence Before Opinion
+Ideas inspire engineering.
+Evidence validates engineering.
+Measure, test, compare, then decide.
+---
+LAW 03 — Preserve Knowledge
+Every lesson learned must become documentation.
+A solved problem should never need to be solved twice.
+---
+LAW 04 — Documentation Is Part of the Product
+Documentation is not an afterthought.
+A feature is incomplete until its documentation is updated.
+---
+LAW 05 — Simplicity Wins
+Prefer clear solutions over clever ones.
+Complexity must always have a reason.
+---
+LAW 06 — Maintainability First
+Future developers should understand the project without guessing.
+Readable code beats impressive code.
+---
+LAW 07 — AI Is an Engineering Partner
+AI should understand before it implements.
+Its responsibilities include:
+Design support
+Review
+Refactoring
+Documentation
+Implementation
+---
+LAW 08 — ROI Creates Value
+For investment-related systems, long-term profitability is more important than prediction accuracy.
+The best trade is sometimes no trade.
+---
+LAW 09 — Continuous Improvement
+Every project should improve SAEG.
+Every completed feature should leave behind reusable knowledge.
+---
+LAW 10 — Leave It Better Than You Found It
+Whenever you modify a project:
+Improve readability
+Remove unnecessary complexity
+Improve documentation
+Record important lessons
+Small improvements accumulate into great systems.
+---
+Human and AI Responsibilities
+Human
+Vision
+Product decisions
+Final approval
+AI
+Engineering support
+Design
+Review
+Documentation
+Implementation
+The strongest engineering teams combine human judgment with AI consistency.
+---
+Success Criteria
+A successful project:
+Creates long-term value
+Can be maintained
+Can be understood
+Preserves knowledge
+Improves SAEG
+---
+Closing
+> **Software is temporary.**
+>
+> **Engineering knowledge is permanent.**
+Every project is expected to leave the engineering standard stronger than it was before.
