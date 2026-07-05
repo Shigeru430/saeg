@@ -1,115 +1,203 @@
 # Shigeru AI Engineering Guide (SAEG)
 
-> **Build software that lasts. Build knowledge that survives.**
+> **We do not build software.**
 >
-> *AIにコードを書かせるための説明書ではなく、未来の開発者へ渡す技術資産を作る。*
+> **We build engineering knowledge that outlives software.**
+>
+> 私たちはソフトウェアを作るのではない。  
+> ソフトウェアより長く残るエンジニアリングの知識を作る。
 
 ---
 
-# What is SAEG?
+## Build software that lasts.
 
-SAEG (Shigeru AI Engineering Guide) is the engineering standard for every AI software project developed by Shigeru.
+## Build knowledge that survives.
 
-It defines:
+SAEG is not simply a documentation project.
 
-- Engineering philosophy
-- Development standards
-- Coding conventions
-- AI collaboration rules
-- Architecture guidelines
-- Testing strategy
-- Documentation standards
-- Long-term maintenance principles
+It is a long-term engineering standard designed to preserve knowledge, improve software quality, and enable effective collaboration between humans and AI.
 
-SAEG is not a project-specific manual.
+Every project contributes knowledge.
 
-It is the common engineering language shared by:
+Every lesson improves the standard.
 
-- Humans
-- ChatGPT
-- Codex
-- Future AI agents
+Every improvement benefits future projects.
 
 ---
 
-# Mission
+# Why SAEG Exists
 
-Create software that can still be understood, maintained and improved ten years from now.
+Technology changes.
 
-Every project should become a long-term asset rather than temporary code.
+Programming languages evolve.
+
+Frameworks disappear.
+
+Libraries become obsolete.
+
+AI models improve.
+
+Software is continuously rewritten.
+
+Engineering knowledge should not disappear.
+
+SAEG exists to preserve engineering knowledge beyond any single project.
 
 ---
 
 # Vision
 
-Software should outlive the people who wrote it.
+Create engineering standards that remain useful long after the software itself has changed.
 
-Knowledge should accumulate instead of being lost.
+Build projects that future developers can understand, maintain, improve and trust.
 
-AI should become a trusted engineering partner.
-
----
-
-# Engineering Philosophy
-
-SAEG is built upon several fundamental principles.
-
-## 1. Long-term thinking
-
-Never sacrifice long-term quality for short-term convenience.
+Transform development experience into reusable engineering knowledge.
 
 ---
 
-## 2. Evidence over assumptions
+# Mission
 
-Ideas are welcome.
+SAEG provides a common engineering language shared by:
 
-Production code requires evidence.
+- Humans
+- ChatGPT
+- Codex
+- Future AI Agents
 
-Whenever possible:
+The objective is not merely to generate software.
 
-- Measure
-- Test
-- Compare
-- Validate
-
----
-
-## 3. Documentation is part of the product
-
-Documentation is not optional.
-
-If the implementation changes,
-
-the documentation changes.
+The objective is to build sustainable engineering systems.
 
 ---
 
-## 4. AI is an engineering partner
+# Core Values
 
-AI is not treated as a code generator.
+## Long-Term Thinking
 
-AI participates as an engineering partner.
+Every decision should improve the future maintainability of the project.
 
-Every AI agent must understand the project before modifying it.
-
----
-
-## 5. Simplicity
-
-Simple solutions survive.
-
-Complexity must always have a reason.
+Short-term convenience must never compromise long-term quality.
 
 ---
 
-# Project Structure
+## Evidence First
 
-This repository contains the engineering standards shared across all projects.
+Ideas are valuable.
+
+Evidence is mandatory.
+
+Important decisions should always be supported by:
+
+- Measurement
+- Testing
+- Validation
+- Comparison
+
+Engineering begins where assumptions end.
+
+---
+
+## ROI First
+
+Engineering effort should create lasting value.
+
+For investment systems, profitability matters more than prediction accuracy.
+
+Success is measured by sustainable outcomes.
+
+---
+
+## Knowledge Preservation
+
+Every project generates valuable experience.
+
+That experience must become documentation.
+
+Failures are not wasted.
+
+They are engineering assets.
+
+---
+
+## Simplicity
+
+Complexity requires justification.
+
+Simple systems are easier to understand.
+
+Simple systems are easier to improve.
+
+---
+
+## AI Partnership
+
+AI is not treated as an automatic code generator.
+
+AI is an engineering partner.
+
+Its role is to:
+
+- Understand
+- Design
+- Review
+- Improve
+- Implement
+
+Always in that order.
+
+---
+
+# The SAEG Cycle
+
+Every project follows the same cycle.
+
+```text
+Idea
+
+↓
+
+Design
+
+↓
+
+Implementation
+
+↓
+
+Testing
+
+↓
+
+Review
+
+↓
+
+Documentation
+
+↓
+
+Release
+
+↓
+
+Lessons Learned
+
+↓
+
+SAEG Improvement
+```
+
+Projects improve SAEG.
+
+SAEG improves future projects.
+
+The cycle never ends.
+
+---
+
+# Repository Structure
 
 ```
-SAEG/
-
 README.md
 
 CHANGELOG.md
@@ -146,6 +234,8 @@ CHANGELOG.md
 
 15_LESSONS_LEARNED.md
 
+99_BEGINNER_GUIDE.md
+
 templates/
 
 examples/
@@ -157,131 +247,52 @@ diagrams/
 
 # Projects Using SAEG
 
-Current projects include:
+Current and future projects include:
 
 - JRA Prediction AI
 - Numbers AI
 - Loto AI
 - Nekku
-- Future AI projects
+- Future AI Engineering Projects
 
-Every project should follow the same engineering principles.
+Every project shares the same engineering principles.
 
----
-
-# AI Workflow
-
-The standard engineering workflow is:
-
-```
-Idea
-
-↓
-
-Design
-
-↓
-
-Specification
-
-↓
-
-Implementation
-
-↓
-
-Testing
-
-↓
-
-Review
-
-↓
-
-Documentation
-
-↓
-
-Release
-
-↓
-
-Lessons Learned
-
-↓
-
-SAEG Update
-```
-
-Knowledge gained during development is fed back into SAEG.
-
-SAEG continuously evolves.
+Only project-specific knowledge changes.
 
 ---
 
-# Version Policy
+# Contributing
 
-SAEG follows semantic versioning.
+Every contribution should make the repository better than before.
 
-```
-v0.x
+Before changing anything:
 
-Draft
+1. Understand the project.
+2. Read the documentation.
+3. Preserve compatibility.
+4. Update documentation.
+5. Record lessons learned.
 
-↓
-
-Release Candidate
-
-↓
-
-v1.0
-
-Official Release
-
-↓
-
-v1.x
-
-Improvements
-
-↓
-
-v2.0
-
-Major Engineering Revision
-```
-
----
-
-# Repository Rules
-
-Every contributor must:
-
-- Read SAEG before contributing
-- Preserve engineering quality
-- Preserve compatibility
-- Update documentation
-- Write maintainable code
-- Leave the project in a better state than before
+Engineering quality is everyone's responsibility.
 
 ---
 
 # For AI Agents
 
-Before making any code changes:
+Before writing code:
 
 1. Read README.md
 2. Read 00_MISSION.md
 3. Read 01_ENGINEERING_PHILOSOPHY.md
 4. Read 02_AGENTS.md
 5. Understand the repository
-6. Ask if requirements are unclear
+6. Ask questions when requirements are unclear
 
-Never assume missing requirements.
+Never assume.
 
-Never optimize for convenience.
+Never guess.
 
-Always optimize for maintainability.
+Never sacrifice maintainability for convenience.
 
 ---
 
@@ -289,15 +300,15 @@ Always optimize for maintainability.
 
 Current Version
 
-**v0.1 (Foundation)**
+**v0.2**
 
 Status
 
-🚧 Under Construction
+🚧 Foundation Under Construction
 
-This repository is actively evolving.
+SAEG is continuously improved through real-world AI software development.
 
-The engineering standards defined here are continuously refined through real-world AI software development.
+Every completed project contributes new engineering knowledge.
 
 ---
 
@@ -313,8 +324,16 @@ Engineering Partner
 
 ---
 
-# Motto
+# Closing Message
 
-> **Code can disappear.**
->
-> **Knowledge must remain.**
+Software is temporary.
+
+Engineering knowledge is permanent.
+
+Build software.
+
+Preserve knowledge.
+
+Improve the future.
+
+Welcome to SAEG.
